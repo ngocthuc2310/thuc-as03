@@ -1,0 +1,40 @@
+@media (min-width: 576px) and (max-width: 992px) {
+  .tablet {
+    display: block;
+  }
+
+  #nav-bar div {
+    width: 60px;
+  }
+
+  #job-info {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .rowCC img {
+    width: 100%;
+    float: left;
+  }
+
+  .da-info i {
+    margin-right: 38px;
+  }
+
+  #footer i {
+    color: #199cdb;
+    font-size: 200%;
+  }
+
+  .chude {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #project {
+    column-gap: 15px;
+  }
+
+  /* .da {
+    width: 30%;
+    margin: 9px;
+  } */
+}

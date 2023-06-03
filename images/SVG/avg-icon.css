@@ -1,0 +1,9 @@
+.icon-co::before {
+  content: url(flag.svg);
+}
+.icon-mem::before {
+  content: url(person.svg);
+}
+.icon-qu::before {
+  content: url(question.svg);
+}
