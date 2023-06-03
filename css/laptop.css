@@ -358,6 +358,13 @@ h2 {
   margin: 0 30px;
 }
 
+#footer a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+}
+
 #project {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
