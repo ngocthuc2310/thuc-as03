@@ -351,6 +351,7 @@ h2 {
   display: inline-block;
   width: 100%;
   text-align: center;
+  padding-left: 1em;
 }
 
 #footer li {
