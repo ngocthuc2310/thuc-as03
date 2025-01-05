@@ -59,4 +59,12 @@
   #project > div {
     width: 100%;
   }
+
+  #nav-bar nav {
+    width: 100%;
+  }
+
+  #nav-bar a.mni {
+    width: 100%;
+  }
 }

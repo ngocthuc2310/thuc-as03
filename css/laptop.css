@@ -17,10 +17,6 @@ section {
   padding: 1px 50px;
 }
 
-#nav-bar {
-  text-align: center;
-}
-
 .can-giua {
   text-align: center;
 }
@@ -68,6 +64,10 @@ h1 {
   padding: 0px;
 }
 /*class mni có nghĩa là menu item */
+a.mni {
+  width: 20%;
+  text-decoration: none;
+}
 .mni {
   text-transform: capitalize;
   padding: 17px 30px;
@@ -104,9 +104,9 @@ div.mni {
   color: blue;
 }
 
-#nav-bar a {
+/* #nav-bar a {
   text-transform: uppercase;
-}
+} */
 
 #nav-bar div {
   width: 300px;
@@ -338,10 +338,6 @@ h2 {
   border-bottom: none;
 }
 
-#footer {
-  clear: both;
-}
-
 #footer i {
   color: #199cdb;
   font-size: 250%;
@@ -351,7 +347,7 @@ h2 {
   display: inline-block;
   width: 100%;
   text-align: center;
-  padding-left: 1em;
+  padding-left: 0;
 }
 
 #footer li {
@@ -360,10 +356,10 @@ h2 {
 }
 
 #footer a {
-  text-decoration: none;
   margin: 0;
   padding: 0;
   border: 0;
+  text-decoration: none;
 }
 
 #project {
